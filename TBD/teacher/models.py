@@ -45,5 +45,5 @@ class Attendance_Table(models.Model):
     created = models.DateField()
     updated = models.DateField()
 
-    def __str__(self):
-        return self.title
+    # def __str__(self):
+    # return self.title

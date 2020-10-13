@@ -19,6 +19,9 @@ class Student_Table(models.Model):
     address = models.CharField(max_length=500)
     course_id = models.IntegerField()
 
+    def __str__(self):
+        return self.name
+
 
 class Staff_Table(models.Model):
     GENDER_CHOICES = (
@@ -68,4 +71,4 @@ class Feedback_Table(models.Model):
     Updated = models.DateField()
 
     def __str__(self):
-        return self.title
+        return self.id
