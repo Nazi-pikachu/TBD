@@ -31,16 +31,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'mainpage.apps.MainpageConfig',
-    'teacher.apps.TeacherConfig',
-    'hodadmin.apps.HodadminConfig',
-    'student.apps.StudentConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mainpage',
+    'hodadmin',
+    'student',
+    'teacher',
 ]
 
 MIDDLEWARE = [
