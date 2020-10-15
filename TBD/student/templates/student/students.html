@@ -1,8 +1,8 @@
 <h1>Welcome to Student Section</h1>
 
 {%for x in n_s%}
-{{x.id}}
-{{x.Message}}
-{{x.Created}}
-{{x.Updated}}
-{%endfor%}
+<h1>{{x.id}}</h1> 
+<p><b>{{x.Message}}</b></p> 
+<i>Created on:-{{x.Created}}</i></br>
+<i>Updated on:- {{x.Updated}}</i>
+ {%endfor%}

@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin', admin.site.urls),
     path('', views.home, name='home'),
     #path('hodadmin/', include('hodadmin.urls')),
-    #path('student/', include('student.urls')),
+    path('student/', include('student.urls')),
     #path('teacher/', include('teacher.urls')),
 ]
