@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+app_name ='student'
 urlpatterns = [
-    path('',views.WillDecideLater,name='WillDecideLater2'),
+    path('',views.student,name='student'),
 ]
